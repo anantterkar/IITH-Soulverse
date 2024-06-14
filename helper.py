@@ -1,5 +1,5 @@
 from collections import Counter
-
+from deepface import DeepFace
 #this function is for counting number of matching values in two vector embeddings
 def matchingcnt(x, y, img1, img2, mmi):
   cnt=0
