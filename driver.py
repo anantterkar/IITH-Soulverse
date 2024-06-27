@@ -17,5 +17,6 @@ percentage, vector_length, anchor = mismatch(embmatrix)
 #print("Accuracy = {}%".format(percentage))
 print(anchor)
 
-
+vectorid = down_mapping(anchor, vector_length)
+print(vectorid)
 
